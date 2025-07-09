@@ -1,26 +1,155 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="fixed">
+      <div class="content">
+        <div class="body">
+          <h1>Lesson.</h1>
+          <nav>
+            <ul>
+              <li><a href="#!">Home</a></li>
+              <li><a href="#!">Course</a></li>
+              <li><a href="#!">Pricing</a></li>
+              <li><a href="#!">Reviews</a></li>
+            </ul>
+          </nav>
+          <div class="action">
+            <a href="#!" class="btn">Sign up</a>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
 <html lang="vi">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Modal Popup Example</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Navigation Hover Effect</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+        padding: 20px;
+      }
+
+      .navbar {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .nav-list {
+        display: flex;
+        list-style: none;
+        gap: 40px;
+      }
+
+      .nav-item {
+        position: relative;
+      }
+
+      .nav-link {
+        text-decoration: none;
+        color: #666;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 10px 0;
+        position: relative;
+        transition: all 0.3s ease;
+      }
+
+      /* Hiệu ứng hover */
+      .nav-link:hover {
+        color: #333;
+        font-weight: 600;
+      }
+
+      /* Tạo gạch dưới khi hover */
+      .nav-link::after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: #333;
+        transition: width 0.3s ease;
+      }
+
+      .nav-link:hover::after {
+        width: 100%;
+      }
+
+      /* Style cho item đang active */
+      .nav-link.active {
+        color: #333;
+        font-weight: 600;
+      }
+
+      .nav-link.active::after {
+        width: 100%;
+      }
+    </style>
   </head>
   <body>
-    <button id="openModalBtn">Mở Hộp Thoại</button>
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#" class="nav-link active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Reviews</a>
+        </li>
+      </ul>
+    </nav>
 
-    <div id="myModal" class="modal">
-      <div class="modal-content">
-        <span class="close-button">&times;</span>
-        <h2>Chào mừng bạn đến với Hộp Thoại!</h2>
-        <p>
-          Đây là nội dung của hộp thoại bật lên. Bạn có thể đặt bất kỳ thông tin
-          nào ở đây.
-        </p>
-        <button id="closeModalInsideBtn">Đóng</button>
-      </div>
+    <div
+      style="
+        margin-top: 40px;
+        padding: 20px;
+        background: white;
+        border-radius: 8px;
+      "
+    >
+      <h3>Các kỹ thuật chính:</h3>
+      <p>
+        <strong>1. Font-weight:</strong> Thay đổi từ 400 (normal) sang 600
+        (semi-bold) khi hover
+      </p>
+      <p>
+        <strong>2. Pseudo-element ::after:</strong> Tạo gạch dưới với width: 0
+        ban đầu, width: 100% khi hover
+      </p>
+      <p><strong>3. Transition:</strong> Làm mượt hiệu ứng chuyển đổi</p>
     </div>
-
-    <script src="main.js"></script>
   </body>
-</html>
+</html> -->
