@@ -1,0 +1,80 @@
+/* Ẩn modal theo mặc định */
+.modal {
+  display: none; /* Ẩn theo mặc định */
+  position: fixed; /* Giữ vị trí trên màn hình */
+  z-index: 1; /* Nằm trên các nội dung khác */
+  left: 0;
+  top: 0;
+  width: 100%; /* Chiều rộng đầy đủ */
+  height: 100%; /* Chiều cao đầy đủ */
+  overflow: auto; /* Cho phép cuộn nếu nội dung quá dài */
+  background-color: rgba(0, 0, 0, 0.4); /* Màu nền đen mờ */
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+/* Nội dung modal */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto; /* Căn giữa theo chiều ngang và dọc */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Chiều rộng mặc định */
+  max-width: 500px; /* Chiều rộng tối đa */
+  border-radius: 8px;
+  position: relative; /* Để đặt nút đóng */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+/* Hiệu ứng trượt xuống khi modal mở */
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+/* Nút đóng */
+.close-button {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-button:hover,
+.close-button:focus {
+  color: black;
+  text-decoration: none;
+}
+
+/* Nút Mở Hộp Thoại */
+#openModalBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Nút Đóng bên trong modal */
+#closeModalInsideBtn {
+  margin-top: 15px;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  float: right; /* Đẩy sang phải */
+}
