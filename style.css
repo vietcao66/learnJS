@@ -1,13 +1,18 @@
 * {
   box-sizing: border-box;
 }
-
+:root {
+  --primary-color: #FFB900;
+}
 html {
   font-size: 62.5%;
 }
 body {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
+}
+header{
+  background: #fffcf4;
 }
 header .body {
   align-items: center;
@@ -56,9 +61,22 @@ nav a:hover::after {
   position: sticky;
   top: -28px;
   padding-top: 35px;
+  padding-bottom: 8px;
   z-index: 1000;
 }
 .btn {
+  display: inline-block;
+  min-width: 118px;
+  padding: 0 16px;
+  line-height: 50px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 999px;
+  background: #171100;
+}
+.btn :hover{
   display: inline-block;
   min-width: 118px;
   padding: 0 16px;
@@ -78,14 +96,22 @@ nav a:hover::after {
   margin-left: 49px;
   min-width: 144px;
 }
+.btn1:hover{
+  background: #FFB900;
+}
+
 .btn2 {
   padding: 0px 34px;
   border-radius: 32px;
-  background: #ffb900;
+  background: #000000;
   color: #fff;
   font-size: 1.8rem;
   font-weight: 600;
   line-height: 64px;
+}
+.btn2:hover {
+  background: #FFB900;
+ 
 }
 .common {
   width: 1170px;
@@ -311,7 +337,7 @@ nav a:hover::after {
 }
 .third-line a {
   margin-left: auto;
-  background: #ffb900;
+  background: #000000;
   padding: 0px 24px;
   font-weight: 600;
   font-size: 14px;
@@ -324,6 +350,33 @@ nav a:hover::after {
 }
 .popular .text .p2 {
   margin-top: 16px;
+}
+.popular .text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popular .controls {
+  display: flex;
+  gap: 18px;
+}
+
+.popular .control-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.popular .control-btn:hover {
+  background: var(--primary-color);
+  color: #fff;
+  cursor: pointer;
 }
 .first-line {
   margin-top: 16px;
@@ -405,7 +458,7 @@ nav a:hover::after {
   border-radius: 16px;
 }
 .market .right .btn1 {
-  background: #ffb900;
+  background: #000000;
 }
 .market1 .left {
   display: flex;
@@ -447,9 +500,12 @@ nav a:hover::after {
   width: 137px;
   height: 50px;
   border-radius: 26px;
-  background: #ffb900;
+  background: #000000;
   margin-left: 0;
   margin-top: 32px;
+}
+.market .market1 .right .btn1:hover{
+  background: #FFB900;
 }
 .market2 {
   margin-top: 200px;
@@ -479,9 +535,12 @@ nav a:hover::after {
   width: 137px;
   height: 50px;
   border-radius: 26px;
-  background: #ffb900;
+  background: #000000;
   margin-left: 0;
   margin-top: 32px;
+}
+.market .market2 .left .btn1:hover {
+  background: #FFB900;
 }
 .market .market2 .right img {
   width: 470px;
@@ -533,7 +592,7 @@ nav a:hover::after {
 .blog .content .box {
   box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
 }
-.blog .text .icon-n {
+.blog .texxt .icon-n {
   width: 6px;
   height: 6px;
   background-color: #ffb900;
@@ -545,10 +604,10 @@ nav a:hover::after {
   display: flex;
   align-items: center;
 }
-.blog .text {
+.blog .texxt {
   padding: 20px;
 }
-.blog .content .text .div p {
+.blog .content .texxt .div p {
   color: #5f5b53;
   font-size: 14px;
   font-weight: 400;
@@ -563,7 +622,7 @@ nav a:hover::after {
   margin-top: 12px;
   margin-bottom: 12px;
 }
-.blog .content .text .textt {
+.blog .content .texxt .textt {
   color: #171100;
   font-size: 16px;
   font-weight: 600;
@@ -572,13 +631,20 @@ nav a:hover::after {
 }
 .blog .box a {
   border-radius: 25px;
-  background: #ffb900;
+  background: #000000;
   margin-left: 0;
   margin-top: 12px;
+}
+.blog .box a:hover {
+  background: #FFB900;
 }
 .blog {
   background: #fffcf4;
   height: 878px;
+}
+.blog .i-con div:hover {
+  background: #FFB900;  
+  cursor: pointer;
 }
 .cover-box {
   display: flex;
