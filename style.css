@@ -397,3 +397,267 @@ nav a:hover::after {
   margin-left: auto;
   width: 66%;
 }
+
+.market1 img {
+  object-fit: cover;
+  width: 270px;
+  height: 404px;
+  border-radius: 16px;
+}
+.market .right .btn1 {
+  background: #ffb900;
+}
+.market1 .left {
+  display: flex;
+}
+.market .left .img1 {
+  margin-top: 34px;
+}
+.market .left .img2 {
+  margin-left: 30px;
+}
+.market1 {
+  margin-top: 182px;
+  display: flex;
+  justify-content: space-between;
+}
+.market .market1 .right h1 {
+  color: #171100;
+  font-family: Sen;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1.27;
+  letter-spacing: -0.76px;
+}
+.market .market1 .right {
+  width: 41%;
+  display: flex;
+  flex-direction: column; /*quant trong can luu y*/
+  justify-content: center;
+}
+.market .market1 .right p {
+  color: #5f5b53;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75;
+  width: 458px;
+  margin-top: 16px;
+}
+.market .market1 .right .btn1 {
+  width: 137px;
+  height: 50px;
+  border-radius: 26px;
+  background: #ffb900;
+  margin-left: 0;
+  margin-top: 32px;
+}
+.market2 {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.market2 .left h2 {
+  width: 570px;
+  font-family: Sen;
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.26;
+  letter-spacing: -0.76px;
+}
+.market2 .left p {
+  color: #5f5b53;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75;
+  margin-top: 16px;
+  width: 570px;
+}
+
+.market .market2 .left .btn1 {
+  width: 137px;
+  height: 50px;
+  border-radius: 26px;
+  background: #ffb900;
+  margin-left: 0;
+  margin-top: 32px;
+}
+.market .market2 .right img {
+  width: 470px;
+  height: 440px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.market .market2 .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*-------------------blog----------------------------*/
+.blog h2 {
+  color: #130606;
+  font-family: Sen;
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.26;
+  letter-spacing: -0.76px;
+}
+.blog .title .pp {
+  color: #696262;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75;
+  margin: auto;
+  margin-top: 16px;
+  width: 448px;
+}
+.blog .title h2,
+.pp {
+  text-align: center;
+}
+.blog .title {
+  padding-top: 96px;
+}
+
+.blog .content {
+  margin-top: 55px;
+}
+.blog .content .box img {
+  width: 370px;
+  height: 250px;
+  border-radius: 16px 16px 0px 0px;
+  object-fit: cover;
+}
+.blog .content .box {
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+}
+.blog .text .icon-n {
+  width: 6px;
+  height: 6px;
+  background-color: #ffb900;
+  border-radius: 999px;
+  align-items: center;
+}
+
+.blog .div {
+  display: flex;
+  align-items: center;
+}
+.blog .text {
+  padding: 20px;
+}
+.blog .content .text .div p {
+  color: #5f5b53;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.86;
+  margin-left: 4px;
+}
+.ii {
+  width: 160px;
+  height: 1px;
+  border-radius: 0.5px;
+  background: #e2dfda;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.blog .content .text .textt {
+  color: #171100;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.75;
+  width: 330px;
+}
+.blog .box a {
+  border-radius: 25px;
+  background: #ffb900;
+  margin-left: 0;
+  margin-top: 12px;
+}
+.blog {
+  background: #fffcf4;
+  height: 878px;
+}
+.cover-box {
+  display: flex;
+  gap: 30px;
+}
+.i-con div {
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: #5f5b53;
+}
+.i-con {
+  display: flex;
+  justify-content: center;
+  margin-top: 38px;
+  gap: 6px;
+}
+.ft1-Ic {
+  display: flex;
+  gap: 18px;
+}
+footer {
+  background: #2e2100;
+  height: 428px;
+}
+footer p {
+  color: #bfbcb2;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.86;
+}
+footer .common {
+  display: flex;
+  padding-top: 96px;
+  gap: 130px;
+}
+footer h3 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.75;
+}
+footer .ft1 p {
+  width: 267px;
+  margin: 18px 0px;
+}
+footer .ft2 {
+  margin-left: 15px;
+}
+footer .line {
+  width: 130px;
+  height: 1px;
+  background: #59554b;
+  margin: 14px 0px 28px 0px;
+}
+footer p {
+  margin-top: 12px;
+}
+footer strong {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.86;
+}
+footer .final .line {
+  width: 1170px;
+}
+footer .nomarl {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: calc(100% - 48px);
+}
+footer .nomarl p {
+  justify-content: center;
+  display: flex;
+  color: #807d74;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+}
